@@ -65,6 +65,9 @@
 // Vertex processing
 #include "dx8_vertex_processing.h"
 
+// Point sprites and particles
+#include "dx8_point_sprite.h"
+
 // Device capabilities
 #include "dx8_caps.h"
 

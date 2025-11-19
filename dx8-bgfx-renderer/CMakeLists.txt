@@ -43,6 +43,7 @@ set(DX8BGFX_SOURCES
     src/buffer/dx8_buffer_utils.cpp
     src/sprite/dx8_sprite_batch.cpp
     src/vertex/dx8_vertex_processing.cpp
+    src/render/dx8_point_sprite.cpp
     src/debug/dx8_debug.cpp
 )
 
@@ -69,6 +70,7 @@ set(DX8BGFX_HEADERS
     include/dx8bgfx/dx8_buffer_utils.h
     include/dx8bgfx/dx8_sprite_batch.h
     include/dx8bgfx/dx8_vertex_processing.h
+    include/dx8bgfx/dx8_point_sprite.h
     include/dx8bgfx/dx8_debug.h
 )
 
