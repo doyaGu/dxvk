@@ -20,10 +20,15 @@ add_executable(fog_demo fog_demo.cpp)
 target_link_libraries(fog_demo dx8-bgfx-renderer)
 target_compile_definitions(fog_demo PRIVATE DX8BGFX_NO_MAIN=0)
 
+# Alpha blending example
+add_executable(alpha_blend alpha_blend.cpp)
+target_link_libraries(alpha_blend dx8-bgfx-renderer)
+target_compile_definitions(alpha_blend PRIVATE DX8BGFX_NO_MAIN=0)
+
 # Set output directory
-set_target_properties(basic_cube multitexture stencil_mirror fog_demo
+set_target_properties(basic_cube multitexture stencil_mirror fog_demo alpha_blend
     PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"
 )
 
-message(STATUS "Building examples: basic_cube, multitexture, stencil_mirror, fog_demo")
+message(STATUS "Building examples: basic_cube, multitexture, stencil_mirror, fog_demo, alpha_blend")
