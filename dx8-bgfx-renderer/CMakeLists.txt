@@ -35,6 +35,7 @@ set(DX8BGFX_SOURCES
     src/shader/dx8_shader_generator.cpp
     src/shader/dx8_shader_cache.cpp
     src/shader/dx8_shader_compiler.cpp
+    src/shader/dx8_shader_binary.cpp
     src/texture/dx8_texture_utils.cpp
     src/texture/dx8_sampler_utils.cpp
     src/buffer/dx8_buffer_utils.cpp
@@ -56,6 +57,7 @@ set(DX8BGFX_HEADERS
     include/dx8bgfx/dx8_shader_generator.h
     include/dx8bgfx/dx8_shader_cache.h
     include/dx8bgfx/dx8_shader_compiler.h
+    include/dx8bgfx/dx8_shader_binary.h
     include/dx8bgfx/dx8_renderer.h
     include/dx8bgfx/dx8_uniform_manager.h
     include/dx8bgfx/dx8_texture_utils.h

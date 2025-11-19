@@ -44,6 +44,7 @@
 #include "dx8_shader_generator.h"
 #include "dx8_shader_cache.h"
 #include "dx8_shader_compiler.h"
+#include "dx8_shader_binary.h"
 
 // Core renderer
 #include "dx8_renderer.h"
