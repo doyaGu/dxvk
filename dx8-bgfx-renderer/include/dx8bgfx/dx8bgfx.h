@@ -37,6 +37,7 @@
 // State management
 #include "dx8_state_manager.h"
 #include "dx8_stencil_utils.h"
+#include "dx8_fog_utils.h"
 
 // Shader system
 #include "dx8_shader_key.h"
@@ -53,6 +54,12 @@
 
 // Buffer utilities
 #include "dx8_buffer_utils.h"
+
+// Sprite rendering
+#include "dx8_sprite_batch.h"
+
+// Vertex processing
+#include "dx8_vertex_processing.h"
 
 namespace dx8bgfx {
 
