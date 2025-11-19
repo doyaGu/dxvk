@@ -38,6 +38,7 @@ set(DX8BGFX_SOURCES
     src/shader/dx8_shader_binary.cpp
     src/texture/dx8_texture_utils.cpp
     src/texture/dx8_sampler_utils.cpp
+    src/texture/dx8_cube_texture.cpp
     src/buffer/dx8_buffer_utils.cpp
     src/sprite/dx8_sprite_batch.cpp
     src/vertex/dx8_vertex_processing.cpp
@@ -62,6 +63,7 @@ set(DX8BGFX_HEADERS
     include/dx8bgfx/dx8_uniform_manager.h
     include/dx8bgfx/dx8_texture_utils.h
     include/dx8bgfx/dx8_sampler_utils.h
+    include/dx8bgfx/dx8_cube_texture.h
     include/dx8bgfx/dx8_buffer_utils.h
     include/dx8bgfx/dx8_sprite_batch.h
     include/dx8bgfx/dx8_vertex_processing.h

@@ -53,6 +53,7 @@
 // Texture utilities
 #include "dx8_texture_utils.h"
 #include "dx8_sampler_utils.h"
+#include "dx8_cube_texture.h"
 
 // Buffer utilities
 #include "dx8_buffer_utils.h"
