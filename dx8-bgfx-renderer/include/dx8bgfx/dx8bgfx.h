@@ -51,6 +51,7 @@
 
 // Texture utilities
 #include "dx8_texture_utils.h"
+#include "dx8_sampler_utils.h"
 
 // Buffer utilities
 #include "dx8_buffer_utils.h"
@@ -60,6 +61,12 @@
 
 // Vertex processing
 #include "dx8_vertex_processing.h"
+
+// Device capabilities
+#include "dx8_caps.h"
+
+// Debug utilities
+#include "dx8_debug.h"
 
 namespace dx8bgfx {
 
