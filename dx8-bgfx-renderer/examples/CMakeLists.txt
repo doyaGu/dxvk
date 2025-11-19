@@ -10,10 +10,15 @@ add_executable(multitexture multitexture.cpp)
 target_link_libraries(multitexture dx8-bgfx-renderer)
 target_compile_definitions(multitexture PRIVATE DX8BGFX_NO_MAIN=0)
 
+# Stencil mirror example
+add_executable(stencil_mirror stencil_mirror.cpp)
+target_link_libraries(stencil_mirror dx8-bgfx-renderer)
+target_compile_definitions(stencil_mirror PRIVATE DX8BGFX_NO_MAIN=0)
+
 # Set output directory
-set_target_properties(basic_cube multitexture
+set_target_properties(basic_cube multitexture stencil_mirror
     PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"
 )
 
-message(STATUS "Building examples: basic_cube, multitexture")
+message(STATUS "Building examples: basic_cube, multitexture, stencil_mirror")
