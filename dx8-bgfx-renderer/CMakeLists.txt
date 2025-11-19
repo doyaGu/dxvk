@@ -25,21 +25,24 @@ include_directories(
 # Library sources
 set(DX8BGFX_SOURCES
     src/core/dx8_types.cpp
+    src/core/dx8_renderer.cpp
+    src/core/dx8_uniform_manager.cpp
     src/state/dx8_state_manager.cpp
     src/shader/dx8_shader_key.cpp
     src/shader/dx8_shader_generator.cpp
     src/shader/dx8_shader_cache.cpp
-    src/core/dx8_renderer.cpp
-    src/core/dx8_uniform_manager.cpp
+    src/shader/dx8_shader_compiler.cpp
 )
 
 set(DX8BGFX_HEADERS
     include/dx8bgfx/dx8_types.h
     include/dx8bgfx/dx8_constants.h
+    include/dx8bgfx/dx8_math.h
     include/dx8bgfx/dx8_state_manager.h
     include/dx8bgfx/dx8_shader_key.h
     include/dx8bgfx/dx8_shader_generator.h
     include/dx8bgfx/dx8_shader_cache.h
+    include/dx8bgfx/dx8_shader_compiler.h
     include/dx8bgfx/dx8_renderer.h
     include/dx8bgfx/dx8_uniform_manager.h
 )
