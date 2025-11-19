@@ -28,10 +28,12 @@ set(DX8BGFX_SOURCES
     src/core/dx8_renderer.cpp
     src/core/dx8_uniform_manager.cpp
     src/state/dx8_state_manager.cpp
+    src/state/dx8_stencil_utils.cpp
     src/shader/dx8_shader_key.cpp
     src/shader/dx8_shader_generator.cpp
     src/shader/dx8_shader_cache.cpp
     src/shader/dx8_shader_compiler.cpp
+    src/texture/dx8_texture_utils.cpp
 )
 
 set(DX8BGFX_HEADERS
@@ -39,12 +41,14 @@ set(DX8BGFX_HEADERS
     include/dx8bgfx/dx8_constants.h
     include/dx8bgfx/dx8_math.h
     include/dx8bgfx/dx8_state_manager.h
+    include/dx8bgfx/dx8_stencil_utils.h
     include/dx8bgfx/dx8_shader_key.h
     include/dx8bgfx/dx8_shader_generator.h
     include/dx8bgfx/dx8_shader_cache.h
     include/dx8bgfx/dx8_shader_compiler.h
     include/dx8bgfx/dx8_renderer.h
     include/dx8bgfx/dx8_uniform_manager.h
+    include/dx8bgfx/dx8_texture_utils.h
 )
 
 # Create library
